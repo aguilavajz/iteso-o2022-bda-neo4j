@@ -92,7 +92,7 @@ class TwitterApp(object):
         with self.driver.session() as session:
             session.run("""
                 MATCH (u:User), (c:Comment)
-                WHERE u.username=$username1 AND c.text=$comment
+                WHERE u.username=$username AND c.text=$comment
                 CREATE (u)-[r:COMMENTED]->(c)
                 RETURN type(r)""", username=username, comment=comment)
 
