@@ -43,7 +43,7 @@ class TwitterApp(object):
     def _create_comment_node(self, text,karma):
         with self.driver.session() as session:
             try:
-                session.run("CREATE (c:Comment {text: $text, karma: $karma, timestamp: $timestamp})", text=text,karma=karma)
+                session.run("CREATE (c:Comment {text: $text, karma: $karma})", text=text,karma=karma)
             except ConstraintError:
                 pass
 
