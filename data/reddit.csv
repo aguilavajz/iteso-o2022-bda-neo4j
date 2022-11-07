@@ -9,33 +9,48 @@ Post,Vivian,3,32,r/cassandra,Cassandra subreddit,,Post 7,Another post,18,,
 Post,Peter,2,52,r/neo4j,neo4j subreddit,,Post 8,Yet another post,2485,,
 Post,Amy,2,12,r/StarWars,Star Wars subreddit,,Post 9,Droids,87,,
 Post,Amy,2,12,r/harrypotter,Harry Potter subreddit,,Post 10,Alohomora,87,,
-Comment,Mary,2,10,,,,,,,Comment 1,1256
-Comment,Amy,1,12,,,,,,,Comment 2,4156
-Comment,Tom,2,12,,,,,,,Comment 3,16
-Comment,Tom,2,12,,,,,,,Comment 4,15
-Comment,Frank,1,13,,,,,,,Comment 5,148
-Comment,Peter,2,52,,,,,,,Comment 6,1889
-Comment,Vivian,3,32,,,,,,,Comment 7,453
-Comment,Peter,2,52,,,,,,,Comment 8,485
-Comment,Amy,2,12,,,,,,,Comment 9,214
-Comment,Amy,2,12,,,,,,,Comment 10,151
-Upvote,Mary,2,10,,,,Post 1,,,,
-Upvote,Amy,1,12,,,,Post 2,,,,
-Upvote,Tom,2,12,,,,Post 3,,,,
-Upvote,Tom,2,12,,,,Post 4,,,,
-Upvote,Frank,1,13,,,,Post 5,,,,
-Upvote,Peter,2,52,,,,Post 6,,,,
-Upvote,Vivian,3,32,,,,Post 7,,,,
-Upvote,Peter,2,52,,,,Post 8,,,,
-Upvote,Amy,2,12,,,,Post 9,,,,
-Upvote,Amy,2,12,,,,Post 10,,,,
-Downvote,Peter,2,52,,,,Post 1,,,,
-Downvote,Peter,2,52,,,,Post 2,,,,
-Downvote,Frank,1,13,,,,Post 3,,,,
-Downvote,Vivian,3,32,,,,Post 4,,,,
-Downvote,Vivian,3,32,,,,Post 5,,,,
-Downvote,Amy,2,12,,,,Post 6,,,,
-Downvote,Mary,2,10,,,,Post 7,,,,
-Downvote,Rose,0,1232,,,,Post 8,,,,
-Downvote,Frank,1,13,,,,Post 9,,,,
-Downvote,Frank,1,13,,,,Post 10,,,,
+Comment,Mary,,,,,,,,,Comment 1,1256
+Comment,Amy,,,,,,,,,Comment 2,4156
+Comment,Tom,,,,,,,,,Comment 3,16
+Comment,Tom,,,,,,,,,Comment 4,15
+Comment,Frank,,,,,,,,,Comment 5,148
+Comment,Peter,,,,,,,,,Comment 6,1889
+Comment,Vivian,,,,,,,,,Comment 7,453
+Comment,Peter,,,,,,,,,Comment 8,485
+Comment,Amy,,,,,,,,,Comment 9,214
+Comment,Amy,,,,,,,,,Comment 10,151
+Upvote,Mary,,,,,,Post 1,,,,
+Upvote,Amy,,,,,,Post 2,,,,
+Upvote,Tom,,,,,,Post 3,,,,
+Upvote,Tom,,,,,,Post 4,,,,
+Upvote,Frank,,,,,,Post 5,,,,
+Upvote,Peter,,,,,,Post 6,,,,
+Upvote,Vivian,,,,,,Post 7,,,,
+Upvote,Peter,,,,,,Post 8,,,,
+Upvote,Amy,,,,,,Post 9,,,,
+Upvote,Amy,,,,,,Post 10,,,,
+Downvote,Peter,,,,,,Post 9,,,,
+Downvote,Peter,,,,,,Post 8,,,,
+Downvote,Frank,,,,,,Post 7,,,,
+Downvote,Vivian,,,,,,Post 6,,,,
+Downvote,Vivian,,,,,,Post 5,,,,
+Downvote,Amy,,,,,,Post 4,,,,
+Downvote,Mary,,,,,,Post 3,,,,
+Downvote,Rose,,,,,,Post 2,,,,
+Downvote,Frank,,,,,,Post 10,,,,
+Downvote,Frank,,,,,,Post 1,,,,
+Subscribes,Mary,,,r/StarWars,,,,,,,
+Subscribes,Amy,,,r/harrypotter,,,,,,,
+Subscribes,Tom,,,r/cassandra,,,,,,,
+Subscribes,Tom,,,r/neo4j,,,,,,,
+Subscribes,Frank,,,r/StarWars,,,,,,,
+Subscribes,Peter,,,r/harrypotter,,,,,,,
+Subscribes,Vivian,,,r/cassandra,,,,,,,
+Subscribes,Peter,,,r/neo4j,,,,,,,
+Subscribes,Amy,,,r/StarWars,,,,,,,
+Subscribes,Amy,,,r/harrypotter,,,,,,,
+Moderates,Mary,,,r/StarWars,,,,,,,
+Moderates,Amy,,,r/harrypotter,,,,,,,
+Moderates,Tom,,,r/cassandra,,,,,,,
+Moderates,Frank,,,r/StarWars,,,,,,,
+Moderates,Peter,,,r/neo4j,,,,,,,

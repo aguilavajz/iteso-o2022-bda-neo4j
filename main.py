@@ -101,9 +101,12 @@ class TwitterApp(object):
             reader = csv.DictReader(csv_file,  delimiter=',')
             for r in reader:
                 self._create_user_node(r["username"],r["followers"],r["user_karma"])
-                self._create_subreddit_node(r["subreddit_name"], r["description"],r["subscribers"])
-                self._create_subscribes_relationship(r["username"], r["subreddit_name"])
-                self._create_moderates_relationship(r["username"], r["subreddit_name"])
+                if r["description"] != '':
+                    self._create_subreddit_node(r["subreddit_name"], r["description"],r["subscribers"])
+                if r["type"] == 'Subscribes':
+                    self._create_subscribes_relationship(r["username"], r["subreddit_name"])
+                if r["type"] == 'Moderates':
+                    self._create_moderates_relationship(r["username"], r["subreddit_name"])
                 if r["type"] == 'Post':
                     self._create_post_node(r["title"],r["post_text"],r["post_karma"])
                     self._create_published_relationship(r["username"], r["title"])
