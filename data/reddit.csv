@@ -1,0 +1,41 @@
+type,username,num_of_followers,user_karma,subreddit_name,description,subscribers,title,post_text,post_karma,comment_text,comment_karma
+Post,Mary,2,10,r/StarWars,Star Wars subreddit,,Post 1,May the force be with you,1,,
+Post,Amy,1,12,r/harrypotter,Harry Potter subreddit,,Post 2,Wingardium Leviosa,25,,
+Post,Tom,2,12,r/cassandra,Cassandra subreddit,,Post 3,Cassandra is a column based NoSQL DB,36,,
+Post,Tom,2,12,r/neo4j,neo4j subreddit,,Post 4,Neo4J is a graph based NoSQL DB,25,,
+Post,Frank,1,13,r/StarWars,Star Wars subreddit,,Post 5,Dark side of the force,249,,
+Post,Peter,2,52,r/harrypotter,Harry Potter subreddit,,Post 6,Avada Kedavra,186,,
+Post,Vivian,3,32,r/cassandra,Cassandra subreddit,,Post 7,Another post,18,,
+Post,Peter,2,52,r/neo4j,neo4j subreddit,,Post 8,Yet another post,2485,,
+Post,Amy,2,12,r/StarWars,Star Wars subreddit,,Post 9,Droids,87,,
+Post,Amy,2,12,r/harrypotter,Harry Potter subreddit,,Post 10,Alohomora,87,,
+Comment,Mary,2,10,,,,,,,Comment 1,1256
+Comment,Amy,1,12,,,,,,,Comment 2,4156
+Comment,Tom,2,12,,,,,,,Comment 3,16
+Comment,Tom,2,12,,,,,,,Comment 4,15
+Comment,Frank,1,13,,,,,,,Comment 5,148
+Comment,Peter,2,52,,,,,,,Comment 6,1889
+Comment,Vivian,3,32,,,,,,,Comment 7,453
+Comment,Peter,2,52,,,,,,,Comment 8,485
+Comment,Amy,2,12,,,,,,,Comment 9,214
+Comment,Amy,2,12,,,,,,,Comment 10,151
+Upvote,Mary,2,10,,,,Post 1,,,,
+Upvote,Amy,1,12,,,,Post 2,,,,
+Upvote,Tom,2,12,,,,Post 3,,,,
+Upvote,Tom,2,12,,,,Post 4,,,,
+Upvote,Frank,1,13,,,,Post 5,,,,
+Upvote,Peter,2,52,,,,Post 6,,,,
+Upvote,Vivian,3,32,,,,Post 7,,,,
+Upvote,Peter,2,52,,,,Post 8,,,,
+Upvote,Amy,2,12,,,,Post 9,,,,
+Upvote,Amy,2,12,,,,Post 10,,,,
+Downvote,Peter,2,52,,,,Post 1,,,,
+Downvote,Peter,2,52,,,,Post 2,,,,
+Downvote,Frank,1,13,,,,Post 3,,,,
+Downvote,Vivian,3,32,,,,Post 4,,,,
+Downvote,Vivian,3,32,,,,Post 5,,,,
+Downvote,Amy,2,12,,,,Post 6,,,,
+Downvote,Mary,2,10,,,,Post 7,,,,
+Downvote,Rose,0,1232,,,,Post 8,,,,
+Downvote,Frank,1,13,,,,Post 9,,,,
+Downvote,Frank,1,13,,,,Post 10,,,,
