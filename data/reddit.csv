@@ -1,4 +1,4 @@
-type,username,num_of_followers,user_karma,subreddit_name,description,subscribers,title,post_text,post_karma,comment_text,comment_karma
+type,username,followers,user_karma,subreddit_name,description,subscribers,title,post_text,post_karma,comment_text,comment_karma
 Post,Mary,2,10,r/StarWars,Star Wars subreddit,,Post 1,May the force be with you,1,,
 Post,Amy,1,12,r/harrypotter,Harry Potter subreddit,,Post 2,Wingardium Leviosa,25,,
 Post,Tom,2,12,r/cassandra,Cassandra subreddit,,Post 3,Cassandra is a column based NoSQL DB,36,,
