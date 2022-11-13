@@ -15,8 +15,11 @@ gds = GraphDataScience(neo4j_uri, auth=(neo4j_user, neo4j_password))
 print(gds.version())
 assert gds.version()
 
-node1 = gds.find_node_id(["Person"], {"name": "Tom Hanks"})
-node2 = gds.find_node_id(["Person"], {"name": "Ron Howard"})
+name1 = input("Enter name 1: ")
+name2 = input("Enter name 2: ")
+
+node1 = gds.find_node_id(["Person"], {"name": name1})
+node2 = gds.find_node_id(["Person"], {"name": name2})
 
 score = gds.alpha.linkprediction.totalNeighbors(node1, node2)
 print(round(score, 2))
