@@ -22,7 +22,7 @@ node1 = gds.find_node_id(["Person"], {"name": name1})
 node2 = gds.find_node_id(["Person"], {"name": name2})
 
 score = gds.alpha.linkprediction.totalNeighbors(node1, node2)
-print(round(score, 2))
+print(name1, " and ", name2, " have ", round(score, 2) " total neighbors")
 #assert round(score, 2) == 0.62
 
 gds.close()
