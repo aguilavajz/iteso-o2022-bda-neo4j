@@ -6,9 +6,9 @@ from neo4j import GraphDatabase
 from neo4j.exceptions import ConstraintError
 from graphdatascience import GraphDataScience
 
-neo4j_uri = os.getenv('NEO4J_URI', 'bolt://localhost:7687')
-neo4j_user = os.getenv('NEO4J_USER', 'neo4j')
-neo4j_password = os.getenv('NEO4J_PASSWORD')
+neo4j_uri = os.getenv("NEO4J_URI", "bolt://localhost:7687")
+neo4j_user = os.getenv("NEO4J_USER", "neo4j")
+neo4j_password = os.getenv("NEO4J_PASSWORD")
 
 gds = GraphDataScience(neo4j_uri, auth=(neo4j_user, neo4j_password))
 
