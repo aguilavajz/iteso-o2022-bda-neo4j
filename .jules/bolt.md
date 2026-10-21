@@ -1,0 +1,3 @@
+## 2024-10-21 - Missing Database Constraints cause Full Table Scans in Neo4j
+**Learning:** In Neo4j Python applications, catching `ConstraintError` on node creation is a pattern showing that uniqueness is expected. However, if the corresponding `CREATE CONSTRAINT` is missing during database initialization, it results in O(n) full table scans instead of O(1) indexed lookups when running `MATCH` queries to link those nodes later. This was seen with `Post` and `Comment` nodes during bulk loading.
+**Action:** Always verify that expected database constraints are actually created, not just assumed by error handling.
