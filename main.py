@@ -18,6 +18,10 @@ class TwitterApp(object):
         with self.driver.session() as session:
             session.run("CREATE CONSTRAINT unique_user IF NOT EXISTS FOR (u:User) REQUIRE u.username IS UNIQUE")
             session.run("CREATE CONSTRAINT unique_subreddit IF NOT EXISTS FOR (s:Subreddit) REQUIRE s.name IS UNIQUE")
+            # Bolt: Add missing constraints for Post and Comment to prevent full table scans
+            # during MATCH operations when creating relationships (e.g. Published, Downvotes, Commented).
+            session.run("CREATE CONSTRAINT unique_post IF NOT EXISTS FOR (p:Post) REQUIRE p.title IS UNIQUE")
+            session.run("CREATE CONSTRAINT unique_comment IF NOT EXISTS FOR (c:Comment) REQUIRE c.text IS UNIQUE")
 
     def _create_user_node(self, username, followers, karma):
         with self.driver.session() as session:
